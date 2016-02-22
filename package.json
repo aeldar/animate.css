@@ -35,6 +35,7 @@
     "main": "./animate.css"
   },
   "scripts": {
-    "build": "gulp createCSS"
+    "build": "gulp",
+    "build-noheader": "gulp createCSS"
   }
 }

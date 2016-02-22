@@ -40,6 +40,7 @@ var opts = {
     ' * Licensed under the MIT license - http://opensource.org/licenses/MIT',
     ' *',
     ' * Copyright (c) <%= new Date().getFullYear() %> <%= author.name %>',
+    ' * Build for pinamondo. Only fade in/out up/down are active.',
     ' */\n\n'
   ].join('\n')
 };
