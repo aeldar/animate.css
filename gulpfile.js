@@ -21,7 +21,7 @@ var activatedAnimations = activateAnimations();
 // Task options
 var opts = {
   destPath: './',
-  concatName: 'animate.css',
+  concatName: 'animate-custom.css',
 
   autoprefixer: {
     browsers: ['last 2 versions'],
@@ -79,7 +79,7 @@ gulp.task('addHeader', function() {
 
 // Read the config file and return an array of the animations to be activated
 function activateAnimations() {
-  var categories = JSON.parse(fs.readFileSync('animate-config.json')),
+  var categories = JSON.parse(fs.readFileSync('animate-config-custom.json')),
     category, files, file,
     target = [ 'source/_base.css' ],
     count = 0;

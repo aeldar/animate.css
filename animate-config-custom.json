@@ -1,0 +1,25 @@
+{
+  "fading_entrances": [
+    "fadeIn",
+    "fadeInDown",
+    "fadeInDownBig",
+    "fadeInLeft",
+    "fadeInLeftBig",
+    "fadeInRight",
+    "fadeInRightBig",
+    "fadeInUp",
+    "fadeInUpBig"
+  ],
+
+  "fading_exits": [
+    "fadeOut",
+    "fadeOutDown",
+    "fadeOutDownBig",
+    "fadeOutLeft",
+    "fadeOutLeftBig",
+    "fadeOutRight",
+    "fadeOutRightBig",
+    "fadeOutUp",
+    "fadeOutUpBig"
+  ]
+}
